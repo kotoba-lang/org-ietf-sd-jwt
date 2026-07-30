@@ -21,9 +21,6 @@ jobs:
 
       - run: clojure -M:lint
 
-      # The :cljs branch is not covered by the JVM suite, and this library's one
-      # reader conditional (form-encode) is a place the two hosts genuinely
-
       # The :cljs branch is not covered by the JVM suite, and the reader
       # conditionals here are the byte conversions §4.2.3 hashes over.
       - uses: actions/setup-node@v4
