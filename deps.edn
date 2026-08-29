@@ -1,7 +1,7 @@
 {:paths ["src"]
  :deps {io.github.kotoba-lang/io-multiformats
         {:git/url "https://github.com/kotoba-lang/io-multiformats.git"
-         :git/sha "37843825a77bc6b74f4a1882471d252f6f931f58"}}
+         :git/sha "561fe7dfada3db852b127f06d41750dabd3cead9"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
