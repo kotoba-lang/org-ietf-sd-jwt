@@ -51,7 +51,7 @@
                    {:json-encode json/write-str :salt-fn my-csprng}))
      ;; => {:payload {\"iss\" … \"role\" \"auditor\" \"_sd\" [\"<digest>\"]}
      ;;     :disclosures [\"WyJf…\"]}"
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [multiformats.core :as mf]))
 
 (def sd-claim "_sd")
