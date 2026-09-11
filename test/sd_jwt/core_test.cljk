@@ -17,7 +17,7 @@
 
 (def cross-host-fixed-disclosure
   "A Disclosure as a base64url STRING, and the digest both hosts must produce for
-   it. Pinned identically here and in test/nbb_smoke.cljs.
+   it. Pinned identically here and in test/nbb_smoke.cljk.
 
    §4.2.3 hashes these exact bytes, so if :clj and :cljs ever disagree, an Issuer
    on one host emits digests a Verifier on the other cannot reproduce — and the

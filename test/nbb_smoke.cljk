@@ -6,7 +6,7 @@
 ;; a Verifier on the other cannot reproduce — and every claim would silently read
 ;; as withheld rather than erroring.
 ;;
-;;   nbb --classpath src test/nbb_smoke.cljs
+;;   nbb --classpath src test/nbb_smoke.cljk
 (ns nbb-smoke
   (:require [sd-jwt.core :as sd]))
 
@@ -30,7 +30,7 @@
 
 ;; The cross-host invariant. This digest is over a fixed base64url string, so both
 ;; hosts MUST produce the same value or nothing interoperates. Pinned identically
-;; in test/sd_jwt/core_test.clj.
+;; in test/sd_jwt/core_test.cljk.
 (def fixed-disclosure "WyJzYWx0MDAwMDAwMDAwMDAwMDAwMDAwMSIsIm5hbWUiLCJBbGljZSJd")
 (check "digest of a fixed Disclosure string"
        "Dh_aYx1cqVyIblWlVdUTvo3YJEeigpSGdeVPyn867RY"
