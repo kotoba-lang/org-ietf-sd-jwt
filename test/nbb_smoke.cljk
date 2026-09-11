@@ -6,7 +6,7 @@
 ;; a Verifier on the other cannot reproduce — and every claim would silently read
 ;; as withheld rather than erroring.
 ;;
-;;   nbb --classpath src test/nbb_smoke.cljk
+;;   kbb --backend sci --classpath src test/nbb_smoke.cljk
 (ns nbb-smoke
   (:require [sd-jwt.core :as sd]))
 

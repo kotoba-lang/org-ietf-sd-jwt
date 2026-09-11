@@ -73,8 +73,8 @@ one, and a test needs a deterministic salt.
 ## Test
 
 ```bash
-clojure -M:dev:test                     # JVM
-clojure -M:lint
+kbb -M:dev:test                     # JVM
+kbb -M:lint
 npm install && npm run smoke            # the :cljs branch
 ```
 
