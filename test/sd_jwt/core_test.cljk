@@ -1,5 +1,5 @@
 (ns sd-jwt.core-test
-  (:require [clojure.data.json :as json]
+  (:require [kotoba.json :as json]
             [kotoba.test :refer [deftest is testing]]
             [sd-jwt.core :as sd]))
 
