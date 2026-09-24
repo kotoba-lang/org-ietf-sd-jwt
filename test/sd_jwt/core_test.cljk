@@ -1,6 +1,6 @@
 (ns sd-jwt.core-test
   (:require [clojure.data.json :as json]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [sd-jwt.core :as sd]))
 
 (def codec {:json-encode json/write-str
